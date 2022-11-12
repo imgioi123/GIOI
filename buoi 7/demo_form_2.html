@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet ID Registration Form</title>
+</head>
+<body>
+    <h1>Pet Registration Form</h1>
+    <form action="#">
+<fieldset>
+<legend>General information</legend>
+Name: <input type="petName"><br>
+Date of birth: <input type="date" name="petDayOfBirth" id=""><br>
+Weight: <input type="number" name="petWeight" min="0" max="5" id=""><br>
+Owner Email: <input type="email" name="perOwnerEmail" id="">
+</fieldset> 
+
+<fieldset>
+<legend>Ddetail information</legend>
+Fur color:
+<input type="radio" name="petFurColor" value="white" white id=""> white
+<input type="radio" name="petFurColor"  value="black" black id=""> black
+<input type="radio" name="petFurColor" value="red" red id=""> red
+<input type="radio" name="petFurColor" value="yellow" yellow id=""> yellow
+<input type="radio" name="petFurColor" value="pinl" pink  id=""> pink
+
+<br>
+Favorite things:
+<input type="checkbox" name="petFavoriteThings " value="Milk" Milk id=""> Milk
+<input type="checkbox" name="petFavoriteThings " value="playing" Playing id="">playing
+<input type="checkbox" name="petFavoriteThings " value="Sing" Sing id="">Sing
+<br>
+Speceis:
+<select name="petSpeceis" id="">
+    <option value="Alaska dog" >Alaska dog</option> 
+    <option value="bacre dog" >bacre dog</option> 
+     <option value="bigbull dog">bigbull dog</option> 
+</select>
+
+</fieldset>
+<fieldset>
+        <legend>other information</legend>
+        Pet Photo:
+        <input type="file" name="petPhoto" id="">
+        <br>
+        Note: <textarea name="petPhoto" id="" cols="30" rows="10"></textarea>
+</fieldset>
+    </form>
+    <h2> Registered pet </h2>
+    <table>
+        <tr>
+<th>No.</th>
+<th>Pet Name</th>
+<th>Registration</th>
+        </tr>
+        <tr>
+<td>1</td>
+<td>Gau</td>
+<td>12/12/2012</td>
+        </tr>
+        <tr>
+<td>2</td>
+<td>Loe</td>
+<td>11/01/1234</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>heo</td>
+            <td>4/2/2014</td>
+        </tr>
+    </table>
+</body>
+</html>
